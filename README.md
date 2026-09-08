@@ -5,6 +5,11 @@ Official public releases for SmartMacroAI desktop automation.
 ## Download
 Visit [Releases](https://github.com/trantien-creator/MacroAI-Releases/releases) for the latest binaries.
 
+## Policies and Support
+- [Privacy Policy](PRIVACY.md)
+- [Terms of Service](TERMS.md)
+- Support: hotrantentien98@gmail.com
+
 ## Version
 - **Latest**: v1.3.0-beta.3
 - **Platform**: Windows x64 (.NET 8.0)
