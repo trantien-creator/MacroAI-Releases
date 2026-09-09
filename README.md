@@ -6,7 +6,7 @@
 
 **Công cụ tự động hóa Windows/ADB với trình soạn kịch bản trực quan**
 
-[![Version](https://img.shields.io/badge/version-1.3.0%20Beta.3-0078D4?style=flat-square)](https://github.com/trantien-creator/MacroAI-Releases/releases/tag/v1.3.0-beta.3)
+[![Version](https://img.shields.io/badge/version-1.3.0%20Beta.5-0078D4?style=flat-square)](https://github.com/trantien-creator/MacroAI-Releases/releases/tag/v1.3.0-beta.5)
 ![Platform](https://img.shields.io/badge/platform-Windows%2010%2B-0078D4?style=flat-square&logo=windows)
 ![.NET](https://img.shields.io/badge/.NET-8.0-512BD4?style=flat-square&logo=dotnet)
 ![Language](https://img.shields.io/badge/UI-Ti%E1%BA%BFng%20Vi%E1%BB%87t%20%7C%20English-F7931E?style=flat-square)
@@ -14,7 +14,7 @@
 
 Phát triển bởi **Trần Tiến**
 
-[Website](https://smartmacroai.pages.dev/) · [Tải bản phát hành](https://github.com/trantien-creator/MacroAI-Releases/releases/tag/v1.3.0-beta.3)
+[Website](https://smartmacroai.pages.dev/) · [Tải bản phát hành](https://github.com/trantien-creator/MacroAI-Releases/releases/tag/v1.3.0-beta.5)
 
 </div>
 
@@ -62,20 +62,20 @@ SmartMacroAI là ứng dụng WPF dành cho Windows, dùng để tạo, ghi, ch�
 
 ## Download & Integrity
 
-Đây là bản **Pre-release** (Beta.3). Chỉ tải từ trang Releases chính thức.
+Đây là bản **Pre-release** (Beta.5). Chỉ tải từ trang Releases chính thức.
 
 **Key dùng thử Beta:** [Mở trang cấp key Community](https://cyber-bike-56a.notion.site/SmartMacroAI-License-20-Thi-t-B-30-Ng-y-3d6cdffabe278141a343ea8872c11687). Key dùng chung có giới hạn thiết bị và thời hạn hiển thị trên trang.
 
 | Asset | Size | Link |
 |---|---|---|
-| `SmartMacroAI-v1.3.0-beta.3-win-x64-Setup.exe` | 518 MB | [Download](https://github.com/trantien-creator/MacroAI-Releases/releases/download/v1.3.0-beta.3/SmartMacroAI-v1.3.0-beta.3-win-x64-Setup.exe) |
-| `MacroAI-v1.3.0-beta.3-win-x64.zip` | 634 MB | [Download](https://github.com/trantien-creator/MacroAI-Releases/releases/download/v1.3.0-beta.3/MacroAI-v1.3.0-beta.3-win-x64.zip) |
-| `SHA256SUMS.txt` | — | [Download](https://github.com/trantien-creator/MacroAI-Releases/releases/download/v1.3.0-beta.3/SHA256SUMS.txt) |
+| `SmartMacroAI-v1.3.0-beta.5-win-x64-Setup.exe` | 237 MB | [Download](https://github.com/trantien-creator/MacroAI-Releases/releases/download/v1.3.0-beta.5/SmartMacroAI-v1.3.0-beta.5-win-x64-Setup.exe) |
+| `SmartMacroAI-v1.3.0-beta.5-win-x64.zip` | 345 MB | [Download](https://github.com/trantien-creator/MacroAI-Releases/releases/download/v1.3.0-beta.5/SmartMacroAI-v1.3.0-beta.5-win-x64.zip) |
+| `SHA256SUMS.txt` | — | [Download](https://github.com/trantien-creator/MacroAI-Releases/releases/download/v1.3.0-beta.5/SHA256SUMS.txt) |
 
 **SHA256:**
 ```
-042dafdc4ec3f7e186d181c2211bbb79e007fd69da9e6909a248200a9059812e  SmartMacroAI-v1.3.0-beta.3-win-x64-Setup.exe
-2152d79e889d2dbaa398451d928333d675c9c465fb960f9ce10c516ac6ffc055  MacroAI-v1.3.0-beta.3-win-x64.zip
+4917a7de0d7d0d85ea5012e979fe9dd44f3c11551a76aab4e5de462dc0b45349  SmartMacroAI-v1.3.0-beta.5-win-x64-Setup.exe
+3740deb60881934b538f84e997172c7833e0cb59ad730ac43e3bb0466d9306ff  SmartMacroAI-v1.3.0-beta.5-win-x64.zip
 ```
 
 > Bản cài đặt Beta hiện chưa có chữ ký số nên Windows SmartScreen có thể hiện cảnh báo. Hãy tải từ release chính thức và đối chiếu SHA256 trước khi chạy.
@@ -83,7 +83,7 @@ SmartMacroAI là ứng dụng WPF dành cho Windows, dùng để tạo, ghi, ch�
 **Xác minh checksum bằng PowerShell:**
 
 ```powershell
-$hash = (Get-FileHash .\MacroAI-v1.3.0-beta.3-win-x64.zip -Algorithm SHA256).Hash
+$hash = (Get-FileHash .\SmartMacroAI-v1.3.0-beta.5-win-x64.zip -Algorithm SHA256).Hash
 Write-Host "Hash tính toán: $hash"
 
 # So sánh với nội dung SHA256SUMS.txt đã tải về
@@ -163,7 +163,7 @@ Backend lưu trong kịch bản là lựa chọn mặc định lâu dài. Bộ c
 
 ## Bắt đầu nhanh
 
-1. Tải `SmartMacroAI-v1.3.0-beta.3-win-x64-Setup.exe` từ [Releases](https://github.com/trantien-creator/MacroAI-Releases/releases/tag/v1.3.0-beta.3). Nếu cần bản portable, tải file ZIP.
+1. Tải `SmartMacroAI-v1.3.0-beta.5-win-x64-Setup.exe` từ [Releases](https://github.com/trantien-creator/MacroAI-Releases/releases/tag/v1.3.0-beta.5). Nếu cần bản portable, tải file ZIP.
 2. Chạy installer; hoặc giải nén bản portable rồi mở `SmartMacroAI.exe`.
 3. Tạo kịch bản mới hoặc mở một file trong `%LOCALAPPDATA%\SmartMacroAI\Scripts`.
 4. Chọn backend:
