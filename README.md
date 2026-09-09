@@ -64,6 +64,8 @@ SmartMacroAI là ứng dụng WPF dành cho Windows, dùng để tạo, ghi, ch�
 
 Đây là bản **Pre-release** (Beta.3). Chỉ tải từ trang Releases chính thức.
 
+**Key dùng thử Beta:** [Mở trang cấp key Community](https://cyber-bike-56a.notion.site/SmartMacroAI-License-20-Thi-t-B-30-Ng-y-3d6cdffabe278141a343ea8872c11687). Key dùng chung có giới hạn thiết bị và thời hạn hiển thị trên trang.
+
 | Asset | Size | Link |
 |---|---|---|
 | `SmartMacroAI-v1.3.0-beta.3-win-x64-Setup.exe` | 518 MB | [Download](https://github.com/trantien-creator/MacroAI-Releases/releases/download/v1.3.0-beta.3/SmartMacroAI-v1.3.0-beta.3-win-x64-Setup.exe) |
