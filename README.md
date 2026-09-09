@@ -26,7 +26,7 @@ SmartMacroAI là ứng dụng WPF dành cho Windows, dùng để tạo, ghi, ch�
 - [Download & Integrity](#download--integrity)
 - [Backend thực thi](#backend-thực-thi)
 - [Trình soạn workflow](#trình-soạn-workflow)
-- [Floating Overlay và tọa độ thích ứng](#floating-overlay-và-tọa-do-thích-ứng)
+- [Floating Overlay và tọa độ thích ứng](#floating-overlay-và-tọa-độ-thích-ứng)
 - [Hành động và điều khiển luồng](#hành-động-và-điều-khiển-luồng)
 - [Nhận diện ảnh và OCR](#nhận-diện-ảnh-và-ocr)
 - [Yêu cầu hệ thống](#yêu-cầu-hệ-thống)
@@ -230,7 +230,7 @@ SmartMacroAI hỗ trợ:
 
 ## Contact / Support
 
-- **Email:** support@smartmacroai.pages.dev
+- **Email:** hotrantentien98@gmail.com
 - **Issues:** [github.com/trantien-creator/MacroAI-Releases/issues](https://github.com/trantien-creator/MacroAI-Releases/issues)
 - **Releases:** [github.com/trantien-creator/MacroAI-Releases/releases](https://github.com/trantien-creator/MacroAI-Releases/releases)
 - **Website:** [smartmacroai.pages.dev](https://smartmacroai.pages.dev/)
