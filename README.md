@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/macroai-logo-v2.png" alt="SmartMacroAI" width="360">
+<img src="assets/smartmacroai-logo.png" alt="SmartMacroAI" width="360">
 
 # SmartMacroAI
 
@@ -66,13 +66,17 @@ SmartMacroAI là ứng dụng WPF dành cho Windows, dùng để tạo, ghi, ch�
 
 | Asset | Size | Link |
 |---|---|---|
+| `SmartMacroAI-v1.3.0-beta.3-win-x64-Setup.exe` | 518 MB | [Download](https://github.com/trantien-creator/MacroAI-Releases/releases/download/v1.3.0-beta.3/SmartMacroAI-v1.3.0-beta.3-win-x64-Setup.exe) |
 | `MacroAI-v1.3.0-beta.3-win-x64.zip` | 634 MB | [Download](https://github.com/trantien-creator/MacroAI-Releases/releases/download/v1.3.0-beta.3/MacroAI-v1.3.0-beta.3-win-x64.zip) |
 | `SHA256SUMS.txt` | — | [Download](https://github.com/trantien-creator/MacroAI-Releases/releases/download/v1.3.0-beta.3/SHA256SUMS.txt) |
 
-**SHA256 ZIP:**
+**SHA256:**
 ```
-2152d79e889d2dbaa398451d928333d675c9c465fb960f9ce10c516ac6ffc055
+042dafdc4ec3f7e186d181c2211bbb79e007fd69da9e6909a248200a9059812e  SmartMacroAI-v1.3.0-beta.3-win-x64-Setup.exe
+2152d79e889d2dbaa398451d928333d675c9c465fb960f9ce10c516ac6ffc055  MacroAI-v1.3.0-beta.3-win-x64.zip
 ```
+
+> Bản cài đặt Beta hiện chưa có chữ ký số nên Windows SmartScreen có thể hiện cảnh báo. Hãy tải từ release chính thức và đối chiếu SHA256 trước khi chạy.
 
 **Xác minh checksum bằng PowerShell:**
 
@@ -157,8 +161,8 @@ Backend lưu trong kịch bản là lựa chọn mặc định lâu dài. Bộ c
 
 ## Bắt đầu nhanh
 
-1. Tải `MacroAI-v1.3.0-beta.3-win-x64.zip` từ [Releases](https://github.com/trantien-creator/MacroAI-Releases/releases/tag/v1.3.0-beta.3).
-2. Giải nén và mở `SmartMacroAI.exe`.
+1. Tải `SmartMacroAI-v1.3.0-beta.3-win-x64-Setup.exe` từ [Releases](https://github.com/trantien-creator/MacroAI-Releases/releases/tag/v1.3.0-beta.3). Nếu cần bản portable, tải file ZIP.
+2. Chạy installer; hoặc giải nén bản portable rồi mở `SmartMacroAI.exe`.
 3. Tạo kịch bản mới hoặc mở một file trong `%LOCALAPPDATA%\SmartMacroAI\Scripts`.
 4. Chọn backend:
    - **Windows/HWND:** chọn cửa sổ đích.
