@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="assets/macroai-logo-v2.png" alt="SmartMacroAI" width="360">
+
 # SmartMacroAI
 
 **Công cụ tự động hóa Windows/ADB với trình soạn kịch bản trực quan**
