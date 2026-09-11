@@ -1,6 +1,6 @@
 # Discord Webhook
 
-SmartMacroAI can send workflow messages and completion notifications through Discord incoming webhooks.
+MacroCanvas can send workflow messages and completion notifications through Discord incoming webhooks.
 
 ## Supported uses
 
@@ -20,7 +20,7 @@ Treat the entire URL as a credential.
 - Remove it before sharing a script.
 - Revoke it in Discord if it is exposed.
 
-SmartMacroAI removes webhook values from its script-sharing export path.
+MacroCanvas removes webhook values from its script-sharing export path.
 You must configure the webhook again on the receiving installation.
 
 ## Delivery behavior
@@ -33,7 +33,7 @@ Network errors, deleted webhooks, and Discord outages can prevent delivery witho
 
 1. Create a temporary private Discord channel.
 2. Create a temporary incoming webhook.
-3. Send a short test notification from SmartMacroAI.
+3. Send a short test notification from MacroCanvas.
 4. Confirm success and error templates separately.
 5. Revoke the temporary webhook after testing.
 

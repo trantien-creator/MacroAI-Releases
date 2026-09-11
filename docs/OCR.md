@@ -1,6 +1,6 @@
 # OCR
 
-SmartMacroAI supports OCR steps for reading visible text from a Windows application or Android emulator capture.
+MacroCanvas supports OCR steps for reading visible text from a Windows application or Android emulator capture.
 
 ## OCR engines
 

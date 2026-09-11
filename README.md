@@ -1,32 +1,35 @@
 <div align="center">
 
-<img src="assets/smartmacroai-logo.png" alt="SmartMacroAI" width="320">
+<img src="assets/macrocanvas-logo.png" alt="MacroCanvas" width="320">
 
-# SmartMacroAI
+# MacroCanvas
 
 **Visual automation for Windows applications and Android emulators**
 
 Build, run, and monitor repeatable workflows without writing code.
 
-[![Version](https://img.shields.io/badge/version-v1.3.0--beta.5-0078D4?style=flat-square)](https://github.com/trantien-creator/MacroAI-Releases/releases/tag/v1.3.0-beta.5)
+[![Version](https://img.shields.io/badge/version-v1.3.0--beta.6-0078D4?style=flat-square)](https://github.com/trantien-creator/MacroCanvas/releases/tag/v1.3.0-beta.6)
 ![Platform](https://img.shields.io/badge/platform-Windows%2010%2B-0078D4?style=flat-square&logo=windows)
 ![Runtime](https://img.shields.io/badge/.NET-8.0-512BD4?style=flat-square&logo=dotnet)
 ![UI](https://img.shields.io/badge/UI-English%20%7C%20Ti%E1%BA%BFng%20Vi%E1%BB%87t-F7931E?style=flat-square)
 
 [Tiếng Việt](README.vi.md)
 
-**[Download Beta 5](https://github.com/trantien-creator/MacroAI-Releases/releases/download/v1.3.0-beta.5/SmartMacroAI-v1.3.0-beta.5-win-x64-Setup.exe)** · **[Get a free beta key](https://cyber-bike-56a.notion.site/SmartMacroAI-License-20-Thi-t-B-30-Ng-y-3d6cdffabe278141a343ea8872c11687)** · **[View demo](#demo)**
+**[Download Beta 6](https://github.com/trantien-creator/MacroCanvas/releases/download/v1.3.0-beta.6/MacroCanvas-v1.3.0-beta.6-win-x64-Setup.exe)** · **[Get a free beta key](https://cyber-bike-56a.notion.site/MacroCanvas-License-20-Thi-t-B-30-Ng-y-3d6cdffabe278141a343ea8872c11687)** · **[View demo](#demo)**
 
-[Website](https://smartmacroai.pages.dev/) · [All releases](https://github.com/trantien-creator/MacroAI-Releases/releases)
+[Website](https://macrocanvas.pages.dev/) · [All releases](https://github.com/trantien-creator/MacroCanvas/releases)
 
 </div>
 
 > [!WARNING]
-> Beta 5 is unsigned. Windows SmartScreen may show a warning. Download only from this official repository and verify the published SHA256 checksum before running the installer.
+> Beta 6 is unsigned. Windows SmartScreen may show a warning. Download only from this official repository and verify the published SHA256 checksum before running the installer.
 
-## What SmartMacroAI does
+> [!NOTE]
+> MacroCanvas is the new name of SmartMacroAI. Beta 6 migrates existing settings, scripts, templates, and license state automatically; the previous data folder is left unchanged as a recovery source.
 
-SmartMacroAI is a desktop visual automation tool for Windows applications and Android emulators.
+## What MacroCanvas does
+
+MacroCanvas is a desktop visual automation tool for Windows applications and Android emulators.
 It combines a workflow editor, recording tools, image matching, OCR, conditions, loops, scheduling, and run diagnostics in one application.
 The goal is to make repeatable desktop and emulator tasks easier to build, inspect, and maintain.
 
@@ -44,11 +47,11 @@ The goal is to make repeatable desktop and emulator tasks easier to build, inspe
 ## Demo
 
 <p align="center">
-  <img src="assets/product-overview.png" alt="SmartMacroAI product overview" width="820">
+  <img src="assets/product-overview.png" alt="MacroCanvas product overview" width="820">
 </p>
 
 <p align="center">
-  <img src="assets/demo-workspace.png" alt="SmartMacroAI workspace demo with neutral sample data" width="1000">
+  <img src="assets/demo-workspace.png" alt="MacroCanvas workspace demo with neutral sample data" width="1000">
 </p>
 The screenshot uses neutral demo data and contains no personal workflow names, target titles, local paths, keys, or private logs.
 
@@ -69,19 +72,19 @@ The screenshot uses neutral demo data and contains no personal workflow names, t
 | Optional driver mode | Low-level input compatibility | Requires Administrator access, driver installation, and a restart. |
 | Android emulator via ADB | Emulator taps, swipes, keys, text, and captures | The selected ADB device must report the `device` state. |
 
-## Beta 5 downloads
+## Beta 6 downloads
 
 | Package | Size | Download |
 |---|---:|---|
-| Windows x64 installer | 237 MiB | [Setup EXE](https://github.com/trantien-creator/MacroAI-Releases/releases/download/v1.3.0-beta.5/SmartMacroAI-v1.3.0-beta.5-win-x64-Setup.exe) |
-| Windows x64 portable | 345 MiB | [ZIP](https://github.com/trantien-creator/MacroAI-Releases/releases/download/v1.3.0-beta.5/SmartMacroAI-v1.3.0-beta.5-win-x64.zip) |
-| Checksums | — | [SHA256SUMS.txt](https://github.com/trantien-creator/MacroAI-Releases/releases/download/v1.3.0-beta.5/SHA256SUMS.txt) |
+| Windows x64 installer | 237 MiB | [Setup EXE](https://github.com/trantien-creator/MacroCanvas/releases/download/v1.3.0-beta.6/MacroCanvas-v1.3.0-beta.6-win-x64-Setup.exe) |
+| Windows x64 portable | 354 MiB | [ZIP](https://github.com/trantien-creator/MacroCanvas/releases/download/v1.3.0-beta.6/MacroCanvas-v1.3.0-beta.6-win-x64.zip) |
+| Checksums | — | [SHA256SUMS.txt](https://github.com/trantien-creator/MacroCanvas/releases/download/v1.3.0-beta.6/SHA256SUMS.txt) |
 
 
 ## Verify the download
 
 ```powershell
-Get-FileHash .\SmartMacroAI-v1.3.0-beta.5-win-x64-Setup.exe -Algorithm SHA256
+Get-FileHash .\MacroCanvas-v1.3.0-beta.6-win-x64-Setup.exe -Algorithm SHA256
 Get-Content .\SHA256SUMS.txt
 ```
 
@@ -90,16 +93,16 @@ Do not run the package when the values differ.
 
 ## Quick start
 
-1. Download the Beta 5 installer or portable ZIP.
+1. Download the Beta 6 installer or portable ZIP.
 2. Verify its SHA256 checksum.
-3. Install or extract SmartMacroAI, then activate it with a valid beta key.
+3. Install or extract MacroCanvas, then activate it with a valid beta key.
 4. Create a workflow or open one of your saved scripts.
 5. Select a Windows target or an available ADB emulator.
 6. Add or record actions, save the workflow, run it, and review the logs.
 
 ## Free beta access
 
-A shared Community beta key is available from the [beta key page](https://cyber-bike-56a.notion.site/SmartMacroAI-License-20-Thi-t-B-30-Ng-y-3d6cdffabe278141a343ea8872c11687).
+A shared Community beta key is available from the [beta key page](https://cyber-bike-56a.notion.site/MacroCanvas-License-20-Thi-t-B-30-Ng-y-3d6cdffabe278141a343ea8872c11687).
 The page displays the current device and time limits.
 Beta access may be changed or withdrawn in a later commercial release.
 
@@ -137,14 +140,14 @@ Always test a workflow after moving it to a different environment.
 - [Proprietary License](LICENSE)
 - [Changelog](CHANGELOG.md)
 
-SmartMacroAI is proprietary software developed by **Trần Tiến**.
+MacroCanvas is proprietary software developed by **Trần Tiến**.
 Copyright © 2026. All rights reserved.
 
 ## Support
 
-- [Open an issue](https://github.com/trantien-creator/MacroAI-Releases/issues)
+- [Open an issue](https://github.com/trantien-creator/MacroCanvas/issues)
 - Email: `hotrantentien98@gmail.com`
-- Website: [smartmacroai.pages.dev](https://smartmacroai.pages.dev/)
+- Website: [macrocanvas.pages.dev](https://macrocanvas.pages.dev/)
 
 This public repository contains product documentation and official release downloads.
 It does not contain the private application source code, credentials, license secrets, or user data.

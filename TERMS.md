@@ -1,10 +1,10 @@
-# SmartMacroAI Terms of Service
+# MacroCanvas Terms of Service
 
 Effective date: September 9, 2026
 
-SmartMacroAI is proprietary software provided for lawful desktop automation. Downloading or using it means you agree to these terms and the license included with the release.
+MacroCanvas is proprietary software provided for lawful desktop automation. Downloading or using it means you agree to these terms and the license included with the release.
 
-You are responsible for your automations and for complying with applicable law and the terms of every website, application, game, device, and third-party service you use. Do not use SmartMacroAI to gain unauthorized access, evade security controls, harm systems or users, distribute malware, or violate third-party rights.
+You are responsible for your automations and for complying with applicable law and the terms of every website, application, game, device, and third-party service you use. Do not use MacroCanvas to gain unauthorized access, evade security controls, harm systems or users, distribute malware, or violate third-party rights.
 
 Features that depend on drivers, ADB, webhooks, or external AI services may require additional configuration and may be experimental. Third-party services are governed by their own terms.
 

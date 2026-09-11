@@ -1,6 +1,6 @@
 # ADB and Android emulators
 
-SmartMacroAI uses Android Debug Bridge for emulator automation.
+MacroCanvas uses Android Debug Bridge for emulator automation.
 Supported operations include target discovery, display-size reading, capture, tap, swipe, key events, and text input.
 
 ## Readiness
@@ -30,7 +30,7 @@ Ports, authorization, and capture behavior vary between vendors.
 ## Capture fallback
 
 Some emulator renderers may not return usable frames through `adb screencap`.
-SmartMacroAI can use a host-window capture fallback when it can map the selected ADB serial to the correct emulator window.
+MacroCanvas can use a host-window capture fallback when it can map the selected ADB serial to the correct emulator window.
 Compatibility remains dependent on the emulator renderer.
 
 ## Text input

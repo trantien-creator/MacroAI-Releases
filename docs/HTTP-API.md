@@ -1,6 +1,6 @@
 # Local HTTP API
 
-SmartMacroAI provides an optional local API for controlling the desktop application.
+MacroCanvas provides an optional local API for controlling the desktop application.
 The default endpoint is `http://127.0.0.1:5100`.
 
 ## Security boundary
@@ -21,7 +21,7 @@ X-API-Key: <local token>
 Authorization: Bearer <local token>
 ```
 
-The token is stored in the local SmartMacroAI application settings.
+The token is stored in the local MacroCanvas application settings.
 
 ## Endpoints
 
